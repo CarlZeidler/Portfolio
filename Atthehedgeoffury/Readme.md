@@ -1,9 +1,15 @@
 # At the Hedge of Fury
+**Itch.io**: https://emilxf.itch.io/at-the-hedge-of-fury<br>
+
 ![AthehedgeoffuryTitle](/Assets/AthehedgeoffuryTitle.png)
+
 At the Hedge of Fury is a Global Gamejam game where you and your neighbour fight each other by throwing weeds into the other's back garden in order to keep your own garden pretty. My contribution to this project was mainly how, where and how often the weeds spawned and multiplied if they were left alone.<br>
 ## My main contributions
 ### Spawning weeds
 There wouldn't be much point to weeding your garden if there weren't any weeds to weed out. I created a script to spawn weeds and one to multiply them if they haven't been uprooted fast enough.<br>
+
+![Unity_UUTunPFwKz](https://github.com/CarlZeidler/Portfolio/assets/113012261/ea41894c-f63f-4316-a0cf-9b1c5dc7e4b9)
+
 <details>
   <summary>The garden plot script which spawn the initial weeds</summary>
 
