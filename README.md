@@ -20,7 +20,7 @@ LINK <- Click here for more info<br>
 **Engine**: Unity<br>
 **Genre**: Mobile puzzle/platformer<br>
 <br>
-//IMAGE<br>
+![DoodlefallTitle](https://github.com/CarlZeidler/Portfolio/assets/113012261/4af724c0-9843-4c77-811e-89af48f2f509)
 <br>
 Doodlefall was a solo mobile game project where I explored networking and database implementation in the form of a Firebase integration. It's a short puzzle game where you roll a ball down a board by tilting your phone. It utilizes the phone's built-in gyro to change the gravity of the game. It features profile creation and high score upload to a Firebase database. The title was originally meant to be a play on the title of the game Doodlejump, but I changed the style of the game early on and did not change the title.<br>
 <br>
@@ -42,7 +42,7 @@ LINK <- Click here for more info<br>
 **Engine**: Unity<br>
 **Genre**: 3D café management sim<br>
 <br>
-//IMAGE<br>
+![BobthebrewerscafeTItle](https://github.com/CarlZeidler/Portfolio/assets/113012261/60905c6d-1552-4ba4-b71a-19fec719c42a)
 <br>
 Bob the Brewer's Café was the first 3D group project I participated in. It's a café management simulator where you work in Bob's café to make boba tea for customers before they get angry and leave. You as the player are responsible for brewing and serving the tea as well as cleaning up dishes and collecting payment.<br>
 My contributions to this project was the behaviour of the guests. I also did a significant revamp of the interaction system to make it more consistent what the player was interacting with.<br>
@@ -72,7 +72,7 @@ Haunted Hotel was the first project I participated in. It's a short hotel manage
 LINK <- Click here for more info<br>
 <br>
 ### At the Hedge of Fury
-**Development period**: Global Game Jam 23<br>
+**Development period**: Global Game Jam 23/FEB '23<br>
 **Engine**: Unity<br>
 **Genre**: Local Competitive Garden Warfare<br>
 <br>
