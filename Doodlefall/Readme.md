@@ -1,14 +1,16 @@
 # Doodlefall
-[Git]([https://github.com/CarlZeidler/YRGO22-9-Backup](https://github.com/CarlZeidler/Doodlefall))
+[Git](https://github.com/CarlZeidler/Doodlefall)<br>
 <br>
-![DoodlefallTitle](https://github.com/CarlZeidler/Portfolio/assets/113012261/4af724c0-9843-4c77-811e-89af48f2f509)
+![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/00bd3ace-f1cc-46a8-8da4-299a7ed4b5ae)
 <br>
 Doodlefall was a solo mobile game project where I explored networking and database implementation in the form of a Firebase integration. It's a short puzzle game where you roll a ball down a board by tilting your phone. It utilizes the phone's built-in gyro to change the gravity of the game and features profile creation and high score upload to a Firebase database.
 ## Main features
 ### Profile creation and sign-in
 In order to utilize the Firebase functionality, the player would need to create a profile (or use a temporary one as a guest). This necessitated the creation of functionality to register, login, as well as saving the user's settings, score and preferences.
 
-![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/0e8632c9-0149-45b7-9b98-28fa7feb2641) ![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/ee4e7078-2865-48a1-bb86-48aa89aed236)
+
+|![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/ed904812-433c-47c9-9fed-ceed15540884)|![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/7c1277ff-d81a-4324-9fbc-1cf9ac2429b5)|
+
 
 <details>
   <summary>The Startup Screen Script, which handles UI functionality on the game's initial screen</summary>
