@@ -9,7 +9,7 @@ For a café to function it obviously needs to have guests. I created a state mac
 <br>
 The state machine indexes the states in an array and uses it as reference when accessing the functionality in the state. Each frame it runs the update function in the currently active state.
 <details>
-  <summary>The state machine itself, which </summary>
+  <summary>The state machine itself</summary>
 
   ```
 public class GuestStatemachine
