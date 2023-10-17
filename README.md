@@ -41,7 +41,7 @@ All Birds no Bees was a solo introductory Unreal game to get acquainted with dev
 **Development period**: APR '23 - MAY '23<br>
 **Engine**: Unity<br>
 **Genre**: 3D café management sim<br>
-**Itch.io**: https://yrgo-game-creator.itch.io/bob-the-brewers-cafe (Not public yet)
+**Itch.io**: https://yrgo-game-creator.itch.io/bob-the-brewers-cafe (Not public yet)<br>
 <br>
 ![BobthebrewerscafeTItle](/Assets/BobthebrewerscafeTItle.png)
 <br>
