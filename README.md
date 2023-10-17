@@ -41,6 +41,7 @@ All Birds no Bees was a solo introductory Unreal game to get acquainted with dev
 **Development period**: APR '23 - MAY '23<br>
 **Engine**: Unity<br>
 **Genre**: 3D café management sim<br>
+**Itch.io**: https://yrgo-game-creator.itch.io/bob-the-brewers-cafe (Not public yet)
 <br>
 ![BobthebrewerscafeTItle](/Assets/BobthebrewerscafeTItle.png)
 <br>
@@ -53,12 +54,13 @@ My contributions to this project was the behaviour of the guests. I also did a s
 **Development period**: SEP '23 - OCT '23<br>
 **Engine**: Unity<br>
 **Genre**: VR Shooting Range<br>
+**Itch.io**: https://yrgo-game-creator.itch.io/high-moon<br>
 <br>
 ![HighmoonTitle](/Assets/HighmoonTitle.png)
 <br>
 HIGH MOON was my first foray into VR development. It's a shooting range style VR game that takes place in a graveyard where you shoot cardboard cutouts of monsters with your trusty revolver, Rolf. One of the key design ideas of the game was the focus on interactivity with the gun. Thus, you are supposed to hold the controller upside-down and in the wrong hand in order to use the trigger button as the hammer of the revolver. My contributions to this project where mainly the game loop and game rounds systems.<br>
 <br>
-[LINK](https://github.com/CarlZeidler/Portfolio/tree/main/Highmoon#highmoon) <- Click here for more infor<br>
+[LINK](https://github.com/CarlZeidler/Portfolio/tree/main/Highmoon#highmoon) <- Click here for more info<br>
 ## Game Jam projects
 ### Haunted Hotel
 **Development period**: NOV '22<br>
@@ -75,9 +77,10 @@ Haunted Hotel was the first project I participated in. It's a short hotel manage
 **Development period**: Global Game Jam 23/FEB '23<br>
 **Engine**: Unity<br>
 **Genre**: Local Competitive Garden Warfare<br>
+**Itch.io**: https://emilxf.itch.io/at-the-hedge-of-fury
 <br>
 ![AthehedgeoffuryTitle](/Assets/AthehedgeoffuryTitle.png)
 <br>
-At the Hedge of Fury is a Global Gamejam game where you and your neighbour fight each other by throwing weeds into the other's back garden in order to keep your own garden pretty. My contributions to this project was mainly how, where and how often the weeds spawned and multiplied if they were left alone.<br>
+At the Hedge of Fury is a Global Gamejam game where you and your neighbour fight each other by throwing weeds into the other's back garden in order to keep your own garden pretty. My contribution to this project was mainly how, where and how often the weeds spawned and multiplied if they were left alone.<br>
 <br>
-[LINK](https://github.com/CarlZeidler/Portfolio/tree/main/Atthehedgeoffury#atthehedgeoffury)https://github.com/CarlZeidler/Portfolio/tree/main/Backup#backup <-< Click here for more info<br>
+[LINK](https://github.com/CarlZeidler/Portfolio/tree/main/Atthehedgeoffury#atthehedgeoffury) <-< Click here for more info<br>
