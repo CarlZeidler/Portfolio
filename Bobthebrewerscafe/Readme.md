@@ -1,10 +1,15 @@
 # Bob the Brewer's Café
+
+![BobthebrewerscafeTItle](/Assets/BobthebrewerscafeTItle.png)
+
 Bob the Brewer's Café is a café management simulator where you work in Bob's café to make boba tea for customers before they get angry and leave. You as the player are responsible for brewing and serving the tea as well as cleaning up dishes and collecting payment.<br>
 ## Main contributions
 ### Guest behavior
 For a café to function it obviously needs to have guests. I created a state machine to control how the guests behaves when visiting the player's establishment. The state machine utilizes an Enum and creates the various states as objects which, depending on which state is currently assigned using an enum, limits how the player is able to interact with the guests.
 
-//IMAGE//
+![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/dee5ccd6-21cc-49ab-8256-c8a48a676038)
+
+![Unity_Z6yCqPM3pO](https://github.com/CarlZeidler/Portfolio/assets/113012261/a2a36a9b-1edc-4b16-89bb-90aefec0e49d)
 
 <br>
 The state machine indexes the states in an array and uses it as reference when accessing the functionality in the state. Each frame it runs the update function in the currently active state.
@@ -372,6 +377,8 @@ public Chair AssignSeat()
 ### New interaction system
 As the main way the player interacts with the game is by picking up things or taking orders from the guests, a robust interaction system was needed. The project group initially designed one but as the project grew it became necessary to revamp it to make it more consistent. I did this by implementing a new abstract class that all interactable objects inherited from, which was then checked towards by
 the new interaction system script.
+
+![Unity_eelmzCOkgb](https://github.com/CarlZeidler/Portfolio/assets/113012261/37003f37-9b7e-423e-a03e-af125ec9d343)
 
 <details>
   <summary>The new interaction system that is on the player game object</summary>
@@ -776,9 +783,8 @@ public class Interactable_NewBoba : NewAbstractInteractable
         }
     }
 }
+```
+</details>
 
 ## Summary
 This project let me explore and implment new programming patterns, and also features practical implementations of abstract classes and interfaces, which was very fun to explore.
-
-```
-</details>
