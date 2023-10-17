@@ -77,7 +77,7 @@ Haunted Hotel was the first project I participated in. It's a short hotel manage
 **Development period**: Global Game Jam 23/FEB '23<br>
 **Engine**: Unity<br>
 **Genre**: Local Competitive Garden Warfare<br>
-**Itch.io**: https://emilxf.itch.io/at-the-hedge-of-fury
+**Itch.io**: https://emilxf.itch.io/at-the-hedge-of-fury<br>
 <br>
 ![AthehedgeoffuryTitle](/Assets/AthehedgeoffuryTitle.png)
 <br>
