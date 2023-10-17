@@ -1,6 +1,6 @@
 # Carl Zeidler's Portfolio
 
-Welcome! This is my personal portfolio where I showcase projects that I have worked on, with code snippets and images highlighting particular features I have contributed or worked on.
+Welcome! This is my personal portfolio where I showcase projects that I have created or participated in, with code snippets and images highlighting particular features I have contributed or worked on.
 ## Non-Game Jam-projects
 ### Backup
 **Development period**: NOV '22 - JAN '23<br>
