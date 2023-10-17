@@ -3,7 +3,7 @@
 
 [Git](https://github.com/CarlZeidler/YRGO22-9-Backup)
 <br>
-![BackupTitle](https://github.com/CarlZeidler/Portfolio/assets/113012261/7b7a4024-fe88-46de-8ca7-6ab1a6adc267)
+![BackupTitle](/Assets/BackupTitle.png)
 <br>
 Backup was the first non-jam group project I worked on. It's a 2D platformer where you play as a robot hacking into a server. You continously create backups (checkpoints) of yourself that you can revert to at any time in order to bypass obstacles and get around hazards.<br>
 ## My main contributions
@@ -11,7 +11,7 @@ Backup was the first non-jam group project I worked on. It's a 2D platformer whe
 In order to simplify level creation, the laser needed to have an easily modifiable length. Initially, this meant that it would take use two different points and use a line renderer to create the laser graphic and collider inbetween them. This was later expanded upon to raycast forward until it hit a surface to then use the raycast hit when creating the line, meaning it was possible to block
 off the laser using platforms and doors. <br>
 <br>
-//IMAGES//<br>
+|![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/d629ad7b-e9e2-4857-aeec-6acc769edca9)|![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/920853ae-ea1e-447c-ba17-243d15f13055)|
 <br>
 <details>
   <summary>The laser script</summary>
@@ -143,13 +143,9 @@ public class Laser : HackableObjects
 The guards' behavior needed to be easily adjustable in order to make them easy to place and use regardless of the level's design.<br>
 The basic behavior was for the guards to move back and forth, be able to stop and scan their surroundings, and shoot at the player if the player was spotted (or got too close).
 
-//IMAGES//
-
 To facilitate this, I gave the guards several variables that could be adjust when the prefab was placed in the scene in order to differentiate how each guard would act. As the guards would patrol along their cycles it also became necessary to make them turn around when they hit an edge or a wall, as the player being able to alter the level's obstacles was a central level design feature.
-To facilitate this, I implemented a raycasting that would check the guard's immediate surroundings as well as what the ground in front of them looked like.
-
-//IMAGES//
-
+To facilitate this, I implemented a raycasting that would check the guard's immediate surroundings as well as what the ground in front of them looked like.<br>
+![backupguardpatrol](https://github.com/CarlZeidler/Portfolio/assets/113012261/62dcc018-7c69-47ff-955c-d441fc2896b2)
 <details>
   <summary>The guard's movement script</summary>
   
@@ -692,13 +688,12 @@ public class GuardBehaviour : HackableObjects
 
   ```
 </details>
-<br>
 
 ## Level 6
 While not necessarily related to programming, I stil want to highlight this level which I designed single-handedly.<br>
 It's one of the later levels in the game, and I wanted to incorporate as many features and mechanics of the game as possible in it.<br>
 
-![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/82afb921-c288-45b3-849c-3677a5e54981)
+![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/9d6beb93-3873-4fe1-9ea6-0f88c1f58993)
 
 ## Summary
 While I contributed to many other parts of this project and collaborated with the other project participants, these are what I consider my chief and most meaningful contributions.
