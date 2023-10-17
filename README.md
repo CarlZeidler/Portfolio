@@ -11,7 +11,7 @@ Welcome! This is my personal portfolio where I showcase projects that I have wor
 ![BackupTitle](https://github.com/CarlZeidler/Portfolio/assets/113012261/7b7a4024-fe88-46de-8ca7-6ab1a6adc267)
 <br>
 Backup was the first non-jam group project I worked on. It's a 2D platformer where you play as a robot hacking into a server. You continously create backups (checkpoints) of yourself that you can revert to at any time in order to bypass obstacles and get around hazards.
-My main contributions to this project was the guard behaviour, initial laser behavior, triggers and level transitions, and level design.<br>
+My main contributions to this project was the guard behavior, initial laser behavior, triggers and level transitions, and level design.<br>
 <br>
 LINK <- Click here for more info<br>
 <br>
@@ -31,7 +31,7 @@ LINK <- Click here for more infor<br>
 **Engine**: Unreal Engine 5.1 - Blueprints<br>
 **Genre**: 3D puzzle<br>
 <br>
-//IMAGE<br>
+![AllbirdsnobeesTitle](https://github.com/CarlZeidler/Portfolio/assets/113012261/31c368d9-2d29-4374-a298-7fd2de5d2ebd)
 <br>
 All Birds no Bees was a solo introductory Unreal game to get acquainted with developing in Unreal Engine. It is a 3D puzzle game where you place bird statues on pedestals according to provided rules of increasing difficulty. In this project, besides developing the puzzles, I spent a lot of time exploring different graphical features and playing with light and shadows.<br>
 <br>
