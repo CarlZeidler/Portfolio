@@ -1,13 +1,17 @@
 # HIGH MOON
-[Git](https://github.com/eengdahl/VR)
-<br>
-IMAGE
-<br>
+**Itch.io**: https://yrgo-game-creator.itch.io/high-moon<br>
+**Git:** https://github.com/eengdahl/VR<br>
+
+![HighmoonTitle](/Assets/HighmoonTitle.png)
+
 HIGH MOON is a shooting range style VR game that takes place in a graveyard where you shoot cardboard cutouts of monsters with your trusty revolver, Rolf. One of the key design ideas of the game was the focus on interactivity with the gun. Thus, you are supposed to hold the controller 
 upside-down and in the wrong hand in order to use the trigger button as the hammer of the revolver. My contributions to this project where mainly the game loop and game rounds systems.<br>
 ## My contributions
 ### The game loop and round system
 The game is designed so that the player will start a round, fire at targets, and then receive a score total depending on how well they did. To facilitate this, the game loop needed to have a rounds system implemented that the player could trigger and restart should they want to.
+
+![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/9cf15595-bddc-41d7-a734-862958f1b88c)
+
 
 <details>
   <summary>The game loop implementation in the game controller</summary>
@@ -152,6 +156,8 @@ public class GameController : MonoBehaviour
 
 ### Target trails
 Since, in a VR game, the game world is all around the player, targets will sometimes be out of sight for the player. In order to notify the player of targets that are "out of sight" I created a trail along the ground towards targets that had not been hit for a while.
+
+![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/fca53a02-a9ec-4a8c-8de5-e7cfb2459993)
 
 <details>
   <summary>The trail renderer, which is called from the targets themselves when they haven't been hit for a while</summary>
