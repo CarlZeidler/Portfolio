@@ -2,8 +2,8 @@
 
 Welcome! This is my personal portfolio where I showcase projects that I have created or participated in, with code snippets and images highlighting particular features I have contributed or worked on.<br>
 <br>
-**CV:** 
-**Brief personal introduction:**
+**CV:** https://github.com/CarlZeidler/Portfolio/blob/main/Documents/CZ%20CV%2023.pdf<br>
+**Brief personal introduction:** https://github.com/CarlZeidler/Portfolio/blob/main/Documents/Personligt%20brev%20CZ-23.pdf<br>
 # Projects
 ## Backup
 **Development period**: NOV '22 - JAN '23<br>
