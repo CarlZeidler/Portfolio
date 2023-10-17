@@ -608,7 +608,7 @@ public class HighScoreEntry
 </details>
 
 ### Gravity-based gameplay
-The actual gameplay in the game is as simple as can be. Since the ball is rolling down on a board, all you have to do is tilt your phone to control how it rolls. The script for handling this simply takes the input from the gyro and then updates the gravity in the game's physics engine based on the gyro's output.
+The actual gameplay in the game is as simple as can be. Since the ball is rolling down on a board, all you have to do is tilt your phone to control how it rolls. The script for handling this simply takes the input from the gyro and then updates the gravity in the game's physics engine.
 
 <details>
   <summary>The gyroinput script</summary>
@@ -651,4 +651,4 @@ public class GyroInput : MonoBehaviour
 </details>
 
 ## Summary
-While this game isn short and was mainly just to explore online functionality and mobile development, it was still fun to experiement a bit with a new type of game control.
+While this game is short and was mainly just to explore online functionality and mobile development, it was still fun to experiement a bit with a new type of game control.
