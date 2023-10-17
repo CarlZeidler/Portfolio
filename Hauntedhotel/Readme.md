@@ -1,10 +1,13 @@
 # Haunted Hotel
-IMAGE
+![HauntedhotelTitle](/Assets/HauntedhotelTitle.png)<br>
 <br>
-Haunted Hotel is a short hotel management simulator where you as the proprietess have to make sure your guests get a good night's sleep by keeping the haunted chests in their rooms closed. In this project I was responsible for the animation of the main character, as well as the interactions with the chests and doors.<br>
+Haunted Hotel is a short hotel management simulator where you as the proprietess have to make sure your guests get a good night's sleep by keeping the haunted chests in their rooms closed. In this project I was responsible for the animation of the main character, as well as the interactions with the chests and doors.
+<br>
 ## My main contributions
 ### The animation
 The animation is relatively simple, calling for bools in an animator depending on what the player is doing.
+
+![Unity_I6XkBvUfwS](https://github.com/CarlZeidler/Portfolio/assets/113012261/f81389b2-5707-4b95-ba7e-a0cb341f62ed)
 
 <details>
   <summary>The animation segment of the player script</summary>
@@ -52,6 +55,8 @@ public class Player : MonoBehaviour
 
 ### The chests
 The haunted chests which contain the ghosts of the hotel needed to activate on a timer and be interactable with by the player. I created a simple script to facilitate this.
+
+![Unity_vmEoyrmS6P](https://github.com/CarlZeidler/Portfolio/assets/113012261/ea6af576-ceef-4ee2-8ef9-bf7963002198)
 
 <details>
   <summary>The chest script</summary>
