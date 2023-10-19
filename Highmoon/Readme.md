@@ -12,11 +12,10 @@ The game is designed so that the player will start a round, fire at targets, and
 
 ![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/9cf15595-bddc-41d7-a734-862958f1b88c)
 
-
 <details>
   <summary>The game loop implementation in the game controller</summary>
 
-```
+```cs
 using UnityEngine;
 
 public enum GameState { inMenu, Countdown, inGame, preGame }
@@ -162,7 +161,7 @@ Since, in a VR game, the game world is all around the player, targets will somet
 <details>
   <summary>The trail renderer, which is called from the targets themselves when they haven't been hit for a while</summary>
 
-  ```
+  ```cs
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -275,7 +274,7 @@ Rather than using the VR controller's own pointer to interact with the game's UI
 <details>
   <summary>The shootable button script</summary>
 
-  ```
+  ```cs
 using UnityEngine;
 using Button = UnityEngine.UI.Button;
 using Toggle = UnityEngine.UI.Toggle;
