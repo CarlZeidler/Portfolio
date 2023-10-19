@@ -16,7 +16,7 @@ The state machine indexes the states in an array and uses it as reference when a
 <details>
   <summary>The state machine itself</summary>
 
-  ```
+  ```cs
 public class GuestStatemachine
 {
     public GuestState[] states;
@@ -97,7 +97,7 @@ public interface GuestState
 <details>
   <summary>The guest script's implementation of the state machine</summary>
 
-  ```
+  ```cs
     void Start()
     {
      
@@ -131,7 +131,7 @@ public interface GuestState
 <details>
   <summary>Sample state: Arrived</summary>
 
-  ```
+  ```cs
 using UnityEngine;
 
 public class GuestArrivedState : GuestState
@@ -198,7 +198,7 @@ public class GuestArrivedState : GuestState
 <details>
   <summary>Sample state: Angry</summary>
 
-  ```
+  ```cs
 using UnityEngine;
 
 public class GuestAngryState : GuestState
@@ -279,7 +279,7 @@ public class GuestAngryState : GuestState
 <details>
   <summary>Sample state: Ordered</summary>
    
-  ```
+  ```cs
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -332,13 +332,13 @@ The café has a number of possible seats that the guests can use when visiting. 
 <details>
   <summary>The seat assignation functionality</summary>
   
-  ```
+  ```cs
   public List<ISeat> freeSeatsInScene = new();
     //Maintains a list of seats that are in the scene
 
     public int freeSeats = 0;
     //Shows how many free seats in the scene, added to by the Seats upon play start.
-...
+
 public Chair AssignSeat()
     {
         System.Random rand = new System.Random();
@@ -383,7 +383,7 @@ the new interaction system script.
 <details>
   <summary>The new interaction system that is on the player game object</summary>
 
-  ```
+  ```cs
 using System.Collections.Generic;
 using System.Linq;
 using Carl.NewInteractionSystem;
@@ -586,7 +586,7 @@ public class NewInteract : MonoBehaviour
 <details>
   <summary>The new abstract class</summary>
 
-  ```
+  ```cs
   using UnityEngine;
 
 namespace Carl.NewInteractionSystem
@@ -662,7 +662,7 @@ namespace Carl.NewInteractionSystem
 <details>
   <summary>Sample interactable object that inherits from the abstract class</summary>
   
-  ```
+  ```cs
 using System.Collections;
 using System.Collections.Generic;
 using Carl.NewInteractionSystem;
