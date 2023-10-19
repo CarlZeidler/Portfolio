@@ -1,7 +1,7 @@
 # Doodlefall
 [Git](https://github.com/CarlZeidler/Doodlefall)<br>
 <br>
-![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/00bd3ace-f1cc-46a8-8da4-299a7ed4b5ae)
+![image](/Assets/DoodlefallTitle.png)
 <br>
 Doodlefall was a solo mobile game project where I explored networking and database implementation in the form of a Firebase integration. It's a short puzzle game where you roll a ball down a board by tilting your phone. It utilizes the phone's built-in gyro to change the gravity of the game and features profile creation and high score upload to a Firebase database.
 ## Main features
@@ -15,7 +15,7 @@ In order to utilize the Firebase functionality, the player would need to create 
 <details>
   <summary>The Startup Screen Script, which handles UI functionality on the game's initial screen</summary>
 
-  ```
+  ```cs
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -266,7 +266,7 @@ public class StartupScreenScript : MonoBehaviour
 <details>
 <summary>The save manager script, which handles database functionality</summary>
   
-  ```
+  ```cs
 using UnityEngine;
 using Firebase;
 using Firebase.Auth;
@@ -482,7 +482,7 @@ public class SaveManager : MonoBehaviour
 <details>
   <summary>The high score manager, which adds and retrieves the high scores to and from the database</summary>
 
-  ```
+  ```cs
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -597,7 +597,7 @@ public class HighScoreManager : MonoBehaviour
 <details>
   <summary>The high scores are contained in objects that are converted to JSon</summary>
 
-```
+```cs
 [Serializable]
 public class HighScoreEntry
 {
@@ -608,6 +608,7 @@ public class HighScoreEntry
 }
 ```
 </details>
+<br
 
 ### Gravity-based gameplay
 The actual gameplay in the game is as simple as can be. Since the ball is rolling down on a board, all you have to do is tilt your phone to control how it rolls. The script for handling this simply takes the input from the gyro and then updates the gravity in the game's physics engine.
@@ -615,7 +616,7 @@ The actual gameplay in the game is as simple as can be. Since the ball is rollin
 <details>
   <summary>The gyroinput script</summary>
 
-  ```
+  ```cs
 using System;
 using UnityEngine;
 
