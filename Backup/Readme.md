@@ -5,7 +5,7 @@
 <br>
 ![BackupTitle](/Assets/BackupTitle.png)
 <br>
-Backup was the first non-jam group project I worked on. It's a 2D platformer where you play as a robot hacking into a server. You continously create backups (checkpoints) of yourself that you can revert to at any time in order to bypass obstacles and get around hazards.<br>
+Backup is a 2D platformer where you play as a robot hacking into a server. You continously create backups (checkpoints) of yourself that you can revert to at any time in order to bypass obstacles and get around hazards.<br>
 ## My main contributions
 ### The laser
 In order to simplify level creation, the laser needed to have an easily modifiable length. Initially, this meant that it would take use two different points and use a line renderer to create the laser graphic and collider inbetween them. This was later expanded upon to raycast forward until it hit a surface to then use the raycast hit when creating the line, meaning it was possible to block
@@ -16,7 +16,7 @@ off the laser using platforms and doors. <br>
 <details>
   <summary>The laser script</summary>
 
-  ```
+  ```cs
 
 using System;
 using System.Collections;
@@ -138,6 +138,8 @@ public class Laser : HackableObjects
 }
 ```
 </details>
+<br>
+<br>
 
 ### The guards
 The guards' behavior needed to be easily adjustable in order to make them easy to place and use regardless of the level's design.<br>
@@ -149,7 +151,7 @@ To facilitate this, I implemented a raycasting that would check the guard's imme
 <details>
   <summary>The guard's movement script</summary>
   
-  ```
+  ```cs
 
   using System;
 using System.Collections;
@@ -495,7 +497,7 @@ public class GuardMove : MonoBehaviour
 <details>
   <summary>The guard's behavior script</summary>
     
-  ```
+  ```cs
     using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -688,12 +690,14 @@ public class GuardBehaviour : HackableObjects
 
   ```
 </details>
+<br>
+<br>
 
 ## Level 6
 While not necessarily related to programming, I stil want to highlight this level which I designed single-handedly.<br>
 It's one of the later levels in the game, and I wanted to incorporate as many features and mechanics of the game as possible in it.<br>
-
+  
 ![image](https://github.com/CarlZeidler/Portfolio/assets/113012261/9d6beb93-3873-4fe1-9ea6-0f88c1f58993)
-
+  
 ## Summary
 While I contributed to many other parts of this project and collaborated with the other project participants, these are what I consider my chief and most meaningful contributions.
