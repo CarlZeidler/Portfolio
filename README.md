@@ -13,7 +13,9 @@ Welcome! This is my personal portfolio where I showcase projects that I have cre
 **Itch.io**: https://yrgo-game-creator.itch.io/high-moon<br>
 **Git:** https://github.com/eengdahl/VR<br>
 <br>
-[![HighmoonTitle](/Assets/HighmoonTitle.png)](https://github.com/CarlZeidler/Portfolio/tree/main/Highmoon#highmoon)
+*[Click the image for code snippets and detailed info about HIGH MOON](https://github.com/CarlZeidler/Portfolio/tree/main/Highmoon#highmoon)*<br>
+<br>
+[![HighmoonTitle](/Assets/HighmoonTitle.png)](https://github.com/CarlZeidler/Portfolio/tree/main/Highmoon#highmoon)  
 <br>
 ### Summary
 HIGH MOON was my first foray into VR development. It's a shooting range style VR game that takes place in a graveyard where you shoot cardboard cutouts of monsters with your trusty revolver, Rolf. One of the key design ideas of the game was the focus on interactivity with the gun. Thus, you are supposed to hold the controller upside-down and in the wrong hand in order to use the trigger button as the hammer of the revolver. My contributions to this project where mainly the game loop and game rounds systems.<br>
@@ -28,6 +30,8 @@ HIGH MOON was my first foray into VR development. It's a shooting range style VR
 **Genre**: 2D puzzle/platformer<br>
 **Itch.io**: https://yrgo-game-creator.itch.io/backup<br>
 **Git**: https://github.com/CarlZeidler/YRGO22-9-Backup<br>
+<br>
+*[Click the image for code snippets and detailed info about Backup](https://github.com/CarlZeidler/Portfolio/tree/main/Backup#backup)*<br>
 <br>
 [![BackupTitle](/Assets/BackupTitle.png)](https://github.com/CarlZeidler/Portfolio/tree/main/Backup#backup)
 <br>
@@ -45,6 +49,8 @@ My main contributions to this project was the guard behavior, initial laser beha
 **Genre**: 3D puzzle<br>
 **Download link (Google Drive)**: [LINK](https://drive.google.com/drive/folders/16S9PCaF4yroioKHA_lpC_F284IPq_Tq8?usp=share_link)<br>
 <br>
+*[Click the image for blueprints and detailed info about All Birds no Bees](https://github.com/CarlZeidler/Portfolio/tree/main/Allbirdsnobees#allbirdsnobees)*<br>
+<br>
 [![AllbirdsnobeesTitle](/Assets/AllbirdsnobeesTitle.png)](https://github.com/CarlZeidler/Portfolio/tree/main/Allbirdsnobees#allbirdsnobees)
 <br>
 ### Summary
@@ -59,6 +65,8 @@ All Birds no Bees was a solo introductory Unreal game to get acquainted with dev
 **Engine**: Unity<br>
 **Genre**: 3D café management sim<br>
 **Itch.io**: https://yrgo-game-creator.itch.io/bob-the-brewers-cafe (Not published yet)<br>
+<br>
+*[Click the image for code snippets and detailed info about Bob the Brewer's Café](https://github.com/CarlZeidler/Portfolio/tree/main/Bobthebrewerscafe#bobthebrewerscafe)*<br>
 <br>
 [![BobthebrewerscafeTItle](/Assets/BobthebrewerscafeTItle.png)](https://github.com/CarlZeidler/Portfolio/tree/main/Bobthebrewerscafe#bobthebrewerscafe)
 <br>
@@ -76,6 +84,8 @@ My contributions to this project was the behaviour of the guests. I also did a s
 **Genre**: Mobile puzzle/platformer<br>
 **Git:** https://github.com/CarlZeidler/Doodlefall<br>
 <br>
+*[Click the image for code snippets and detailed info about Doodlefall](https://github.com/CarlZeidler/Portfolio/tree/main/Doodlefall#doodlefall)*<br>
+<br>
 [![DoodlefallTitle](/Assets/DoodlefallTitle.png)](https://github.com/CarlZeidler/Portfolio/tree/main/Doodlefall#doodlefall)
 <br>
 ### Summary
@@ -91,6 +101,8 @@ Doodlefall was a solo mobile game project where I explored networking and databa
 **Genre**: Local Competitive Garden Warfare<br>
 **Itch.io**: https://emilxf.itch.io/at-the-hedge-of-fury<br>
 <br>
+*[Click the image for code snippets and detailed info about At the Hedge of Fury](https://github.com/CarlZeidler/Portfolio/tree/main/Atthehedgeoffury#atthehedgeoffury)*<br>
+<br>
 [![AthehedgeoffuryTitle](/Assets/AthehedgeoffuryTitle.png)](https://github.com/CarlZeidler/Portfolio/tree/main/Atthehedgeoffury#atthehedgeoffury)
 <br>
 ### Summary
@@ -104,6 +116,8 @@ At the Hedge of Fury is a Global Gamejam game where you and your neighbour fight
 **Development period**: NOV '22<br>
 **Engine**: Unity<br>
 **Genre**: Hotel "management" sim<br>
+<br>
+*[Click the image for code snippets and detailed info about Haunted Hotel](https://github.com/CarlZeidler/Portfolio/tree/main/Hauntedhotel#hauntedhotel)*<br>
 <br>
 [![HauntedhotelTitle](/Assets/HauntedhotelTitle.png)](https://github.com/CarlZeidler/Portfolio/tree/main/Hauntedhotel#hauntedhotel)
 <br>
