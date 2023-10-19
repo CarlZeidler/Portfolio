@@ -12,7 +12,7 @@ The animation is relatively simple, calling for bools in an animator depending o
 <details>
   <summary>The animation segment of the player script</summary>
 
-  ```
+  ```cs
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -52,6 +52,7 @@ public class Player : MonoBehaviour
 }
 ```
 </details>
+<br>
 
 ### The chests
 The haunted chests which contain the ghosts of the hotel needed to activate on a timer and be interactable with by the player. I created a simple script to facilitate this.
@@ -61,7 +62,7 @@ The haunted chests which contain the ghosts of the hotel needed to activate on a
 <details>
   <summary>The chest script</summary>
 
-  ```
+  ```cs
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -179,7 +180,7 @@ public class Chest_Script : MonoBehaviour
 <details>
   <summary>The door scripts</summary>
 
-  ```
+  ```cs
 using UnityEngine;
 
 public class Door_Script : MonoBehaviour
@@ -207,6 +208,7 @@ public class Door_Script : MonoBehaviour
 
 ```
 </details>
+<br>
 
 ## Summary
 In retrospect, these scripts are clumsy and I would make them completely different today. But it's fun to look back and see where you started.
