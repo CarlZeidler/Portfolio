@@ -4,6 +4,8 @@
 ![AthehedgeoffuryTitle](/Assets/AthehedgeoffuryTitle.png)
 
 At the Hedge of Fury is a Global Gamejam game where you and your neighbour fight each other by throwing weeds into the other's back garden in order to keep your own garden pretty. My contribution to this project was mainly how, where and how often the weeds spawned and multiplied if they were left alone.<br>
+<br>
+
 ## My main contributions
 ### Spawning weeds
 There wouldn't be much point to weeding your garden if there weren't any weeds to weed out. I created a script to spawn weeds and one to multiply them if they haven't been uprooted fast enough.<br>
@@ -13,7 +15,7 @@ There wouldn't be much point to weeding your garden if there weren't any weeds t
 <details>
   <summary>The garden plot script which spawn the initial weeds</summary>
 
-  ```
+  ```cs
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -99,7 +101,7 @@ public class GardenPlot : MonoBehaviour
 <details>
   <summary>The weed script that each new weed gets that make it multiply if not removed</summary>
 
-  ```
+  ```cs
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -198,4 +200,4 @@ public class GrowingWeedScript : MonoBehaviour
 </details>
 
 ## Summary
-This was a fun GameJam and an idea that turned out to be pretty fun to play in the end. 
+This was a fun GameJam and an idea that turned out to be very fun to play in the end. 
